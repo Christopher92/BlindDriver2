@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <string name="blind_driver">Blind Driver</string>
+  <string name="instruction">Instruction</string>
+  <string name="race">Race</string>
+  <string name="instraction_content">Fucking instruction</string>
+  <string name="introduction_read">Hello. Click left half of the screen to go to instructions or right side of the screen to choose the race.</string>
+  <string name="choose_race_read">Choose a race. Swipe right and left to change.</string>
+  <string name="start">Go!</string>
+  <string name="end">Finish!</string>
+  <string name="one">One</string>
+  <string name="two">Two</string>
+  <string name="three">Three</string>
+  <string name="easy">Easy</string>
+  <string name="medium">Medium</string>
+  <string name="hard">Hard</string>
+  <string name="extreme">Extreme</string>
+  <string name="best_time">Best time</string>
+  <string name="l1">Left one</string>
+  <string name="l2">Left two</string>
+  <string name="l3">Left three</string>
+  <string name="l4">Left four</string>
+  <string name="l5">Left five</string>
+  <string name="r1">Right one</string>
+  <string name="r2">Right two</string>
+  <string name="r3">Right three</string>
+  <string name="r4">Right four</string>
+  <string name="r5">Right five</string>
+</resources>

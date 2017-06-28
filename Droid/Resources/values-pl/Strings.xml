@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <string name="blind_driver">Niewidomy Kierowca</string>
+  <string name="instruction">Instrukcja</string>
+  <string name="race">Wyścig</string>
+  <string name="instraction_content">Treść instrukcji</string>
+  <string name="introduction_read">Witaj. Dotknij lewej połowy ekranu aby przejść do intrukcji. Dotknij lewej połowy ab przejść do wyboru wyścigu.</string>
+  <string name="choose_race_read">Wybierz wyścig. Przesuwaj palce w prawo i lewo aby zmienić.</string>
+  <string name="start">Start!</string>
+  <string name="end">Koniec!</string>
+  <string name="one">Jeden</string>
+  <string name="two">Dwa</string>
+  <string name="three">Trzy</string>
+  <string name="easy">Łatwy</string>
+  <string name="medium">Średni</string>
+  <string name="hard">Trudny</string>
+  <string name="extreme">Ekstremalny</string>
+  <string name="best_time">Najlepszy czas</string>
+  <string name="l1">Lewo jeden</string>
+  <string name="l2">Lewo dwa</string>
+  <string name="l3">Lewo trzy</string>
+  <string name="l4">Lewo cztery</string>
+  <string name="l5">Lewo pięć</string>
+  <string name="r1">Prawo jeden</string>
+  <string name="r2">Prawo dwa</string>
+  <string name="r3">Prawo trzy</string>
+  <string name="r4">Prawo cztery</string>
+  <string name="r5">Prawo pięć</string>
+</resources>

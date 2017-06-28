@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BlindDriver.ViewModel;assembly=BlindDriver"
+             NavigationPage.HasNavigationBar="false"
+             x:Class="BlindDriver.Views.InstructionPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout.GestureRecognizers>
+                <TapGestureRecognizer
+                            Tapped="ReturnOnDoubleTap"
+                            NumberOfTapsRequired="2" />
+                </StackLayout.GestureRecognizers>
+            <Label Text="{Binding Text}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

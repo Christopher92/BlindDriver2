@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			  xmlns:resources="clr-namespace:BlindDriver.Resources;assembly=BlindDriver"
+              NavigationPage.HasNavigationBar="false"
+			  x:Class="BlindDriver.RaceChoosePage"
+              >
+    <CarouselPage.ItemTemplate>
+        <DataTemplate>
+            <ContentPage>
+                <ContentPage.Padding>
+                    <OnPlatform x:TypeArguments="Thickness" iOS="0,40,0,0" Android="0,40,0,0" />
+                </ContentPage.Padding>
+                
+                <Grid RowSpacing="15" ColumnSpacing="30">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                <StackLayout
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    VerticalOptions="CenterAndExpand">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnTapGestureRecognizerTapped"/>
+                            <TapGestureRecognizer Tapped="ReturnOnDoubleTap" NumberOfTapsRequired="2" />
+                        </StackLayout.GestureRecognizers>
+                        <Label Text="{Binding Name}" FontSize="Medium" HorizontalOptions="Center" />
+                    <Image Aspect="AspectFit">
+                        <Image.Source>
+                            <OnPlatform x:TypeArguments="ImageSource">
+                                <OnPlatform.Android>
+                                    <FileImageSource File="{Binding ImageName}"/>
+                                </OnPlatform.Android>
+                            </OnPlatform>
+                        </Image.Source>
+                        <!--<Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                            Tapped="OnTapGestureRecognizerTapped"
+                            NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>-->
+                    </Image>
+                    <!--<BoxView Color="{Binding Color}" WidthRequest="200" HeightRequest="200" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />-->
+                </StackLayout>
+                <StackLayout
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    VerticalOptions="CenterAndExpand">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnTapGestureRecognizerTapped"/>
+                            <TapGestureRecognizer Tapped="ReturnOnDoubleTap" NumberOfTapsRequired="2" />
+                        </StackLayout.GestureRecognizers>
+                    
+                        <Grid RowSpacing="1" ColumnSpacing="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Row="0" Grid.Column="0" Text="{resources:Translate difficulty}" FontSize="Medium" />
+                            <Label Grid.Row="1" Grid.Column="0" Text="{resources:Translate length}" FontSize="Medium" />
+                            <Label Grid.Row="2" Grid.Column="0" Text="{resources:Translate best_time}" FontSize="Medium" />
+                            <Label Grid.Row="0" Grid.Column="1" Text="{Binding Difficulty}" FontSize="Medium" />
+                            <Label Grid.Row="1" Grid.Column="1" Text="{Binding Length}" FontSize="Medium" />
+                            <Label Grid.Row="2" Grid.Column="1" Text="{Binding BestTime}" FontSize="Medium" />
+                        </Grid>
+                </StackLayout>
+                </Grid>
+            </ContentPage>
+        </DataTemplate>
+    </CarouselPage.ItemTemplate>
+</CarouselPage>

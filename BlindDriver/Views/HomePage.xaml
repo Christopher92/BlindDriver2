@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="false"
+             x:Class="BlindDriver.Views.HomePage"
+		     xmlns:resources="clr-namespace:BlindDriver.Resources;assembly=BlindDriver"
+            Title="Home">
+    <ContentPage.Content>
+        <Grid RowSpacing="1" ColumnSpacing="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+        <Button Text="{resources:Translate instruction}"
+                x:Name="InstructionButton"
+                Clicked="InstructionButtonClicked"
+                Grid.Row="0"
+                Grid.Column="0" />
+        <Button Text="{resources:Translate race}"
+                x:Name="RaceChooseButton"
+                Clicked="RaceChooseButtonClicked"
+                Grid.Row="0"
+                Grid.Column="1" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

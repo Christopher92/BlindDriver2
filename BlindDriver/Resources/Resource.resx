@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="best_time" xml:space="preserve">
+    <value>Best time:</value>
+  </data>
+  <data name="blind_driver" xml:space="preserve">
+    <value>Blind Driver</value>
+  </data>
+  <data name="choose_race_read" xml:space="preserve">
+    <value>Swipe right and left to change the race.</value>
+  </data>
+  <data name="countdown" xml:space="preserve">
+    <value>Countdown starts now.</value>
+  </data>
+  <data name="difficulty" xml:space="preserve">
+    <value>Difficulty:</value>
+  </data>
+  <data name="easy" xml:space="preserve">
+    <value>Easy</value>
+  </data>
+  <data name="end" xml:space="preserve">
+    <value>Finish!</value>
+  </data>
+  <data name="extreme" xml:space="preserve">
+    <value>Extreme</value>
+  </data>
+  <data name="hard" xml:space="preserve">
+    <value>Hard</value>
+  </data>
+  <data name="instructionContent" xml:space="preserve">
+    <value>Interface instructions:
+To go back to the previous screen: tap the screen two times. During the game tap once to pause the game and tap twice to end the race.
+Game instructions:
+The Blind Driver is a game that simulates a WCR racing. The player has to finish a race track as fast as possible. To accelerate tilt the device forward. To make a turn - turn the device left or right as a steering wheel. During the race the pilot will be instructing the player of every turn with it's severity. And so a "Right one" turn is the mildest right turn while a "Left five" turn is the most severe left turn.</value>
+  </data>
+  <data name="instruction" xml:space="preserve">
+    <value>Instruction</value>
+  </data>
+  <data name="introduction_read" xml:space="preserve">
+    <value>Hello. Click left half of the screen to go to instructions or right side of the screen to choose the race.</value>
+  </data>
+  <data name="l1" xml:space="preserve">
+    <value>Left one</value>
+  </data>
+  <data name="l2" xml:space="preserve">
+    <value>Left two</value>
+  </data>
+  <data name="l3" xml:space="preserve">
+    <value>Left three</value>
+  </data>
+  <data name="l4" xml:space="preserve">
+    <value>Left four</value>
+  </data>
+  <data name="l5" xml:space="preserve">
+    <value>Left five</value>
+  </data>
+  <data name="length" xml:space="preserve">
+    <value>Track length:</value>
+  </data>
+  <data name="medium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="meters" xml:space="preserve">
+    <value>meters.</value>
+  </data>
+  <data name="one" xml:space="preserve">
+    <value>One</value>
+  </data>
+  <data name="r1" xml:space="preserve">
+    <value>Right one</value>
+  </data>
+  <data name="r2" xml:space="preserve">
+    <value>Right two</value>
+  </data>
+  <data name="r3" xml:space="preserve">
+    <value>Right three</value>
+  </data>
+  <data name="r4" xml:space="preserve">
+    <value>Right four</value>
+  </data>
+  <data name="r5" xml:space="preserve">
+    <value>Right five</value>
+  </data>
+  <data name="race" xml:space="preserve">
+    <value>Race</value>
+  </data>
+  <data name="RaceChooseDetails" xml:space="preserve">
+    <value>Race {0}. Difficulty {1}. Length {2} meters. Best time {3}</value>
+  </data>
+  <data name="race_chosen" xml:space="preserve">
+    <value>You chose a race</value>
+  </data>
+  <data name="seconds" xml:space="preserve">
+    <value>seconds.</value>
+  </data>
+  <data name="start" xml:space="preserve">
+    <value>Go!</value>
+  </data>
+  <data name="three" xml:space="preserve">
+    <value>Three</value>
+  </data>
+  <data name="two" xml:space="preserve">
+    <value>Two</value>
+  </data>
+  <data name="your_time" xml:space="preserve">
+    <value>Your time is</value>
+  </data>
+  <data name="new_record" xml:space="preserve">
+    <value>This is the new record!</value>
+  </data>
+  <data name="not_set" xml:space="preserve">
+    <value>Not set</value>
+  </data>
+  <data name="GearAndSpeed" xml:space="preserve">
+    <value>Gear: {0}           Speed:  {1} kmph</value>
+  </data>
+  <data name="awful" xml:space="preserve">
+    <value>Aweful!</value>
+  </data>
+  <data name="bad" xml:space="preserve">
+    <value>Bad!</value>
+  </data>
+  <data name="decent" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="excelent" xml:space="preserve">
+    <value>Excelent!</value>
+  </data>
+  <data name="good" xml:space="preserve">
+    <value>Good!</value>
+  </data>
+  <data name="Finish" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="resume" xml:space="preserve">
+    <value>Resume race</value>
+  </data>
+</root>
